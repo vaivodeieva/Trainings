@@ -29,11 +29,11 @@ function Header() {
                     </button>
                     <div className={mainMenuClasses} id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <NavLink className="nav-link" exact to="/">Home</NavLink>
-                            <NavLink className="nav-link" to="/articles">Articles</NavLink>
-                            <NavLink className="nav-link" to="/chat">Chat</NavLink>
-                            <NavLink className="nav-link" to="/register">Register</NavLink>
-                            <NavLink className="nav-link" to="/aboutus">About Us</NavLink>
+                            <NavLink className="nav-link" exact to="/" style={{fontFamily: 'cursive'}}>Home</NavLink>
+                            <NavLink className="nav-link" to="/articles" style={{fontFamily: 'cursive'}}>Articles</NavLink>
+                            <NavLink className="nav-link" to="/chat" style={{fontFamily: 'cursive'}}>Chat</NavLink>
+                            <NavLink className="nav-link" to="/register" style={{fontFamily: 'cursive'}}>Register</NavLink>
+                            <NavLink className="nav-link" to="/aboutus" style={{fontFamily: 'cursive'}}>About Us</NavLink>
                           
                         </div>
                     </div>
