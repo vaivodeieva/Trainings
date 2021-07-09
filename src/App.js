@@ -1,5 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Home from './Views/Home';
+import Articles from './Views/Articles';
+import Article from './Views/Article';
+import Chat from './Views/Chat';
+import Register from './Views/Register';
+import AboutUs from './Views/AboutUs';
+import Page404 from './Views/Page404';
+
 
 function App() {
   return (
@@ -13,23 +23,23 @@ function App() {
                     </Route>
 
                     <Route path="/articles">
-                        <Article />
+                        <Articles />
                     </Route>
 
                     <Route path="/article">
-                        <Tags />
+                        <Article />
                     </Route>
 
                     <Route path="/chat">
-                        <Tags />
+                        <Chat />
                     </Route>
 
                     <Route path="/register">
-                        <Tags />
+                        <Register />
                     </Route>
 
                     <Route path="/aboutus">
-                        <Tags />
+                        <AboutUs />
                     </Route>
 
                     <Route>
