@@ -1,9 +1,16 @@
+
 function Register() {
+
+    
 
     return (
         <div>
 
-        </div>
+
+     
+    </div>
+
+
     )
 }
 
