@@ -1,7 +1,6 @@
 import img1 from '../Assets/Images/img1.jpg';
 import img2 from '../Assets/Images/img2.jpg';
 import img3 from '../Assets/Images/img3.jpg';
-
 import {NavLink} from 'react-router-dom';
 
 
