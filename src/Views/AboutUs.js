@@ -8,10 +8,8 @@ import img4 from '../Assets/Images/item-4.jpg';
 function AboutUs() {
 
     return (
-        
+       
 
-<div className="container-tabs">
-      <div className="row">
         <div className="col">
           <ul className="nav nav-tabs" id="myTab" role="tablist">
             <li className="nav-item" role="presentation">
@@ -62,7 +60,7 @@ function AboutUs() {
                   <p>
                     Accumsan lacus vel facilisis volutpat. Aliquet lectus proin nibh nisl condimentum id venenatis a.
                     Vel turpis nunc eget lorem dolor sed viverra ipsum. Adipiscing vitae proin sagittis nisl rhoncus
-                    mattis rhoncus ufna. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. Sed
+                    mattis rhoncus urna. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. Sed
                     augue lacus viverra vitae. Senectus et netus et malesuada fames ac turpis. Tempor nec feugiat nisl
                     pretium fusce id velit ut tortor. Nibh mauris cursus mattis molestie a iaculis at erat. Eu augue ut
                     lectus arcu. </p>

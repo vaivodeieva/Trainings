@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
+
+
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 600px;
+                  height: 400px;
+                }
+
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 600px;
+                  height: 400px;
+                }
+
+                .gmap_iframe {
+                  width: 600px !important;
+                  height: 400px !important;
+                }
+             
