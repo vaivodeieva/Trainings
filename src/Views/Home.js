@@ -2,6 +2,7 @@ import {NavLink} from 'react-router-dom';
 import slider1 from '../Assets/Images/slider-1.jpg';
 import slider2 from '../Assets/Images/slider-2.jpg';
 import slider3 from '../Assets/Images/slider-3.jpg';
+import cardpic from '../Assets/Images/card-pic.jpg';
 
 
 function Home() {
@@ -32,7 +33,7 @@ function Home() {
                 <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={category.image} className="img-fluid rounded-start" alt="..." />
+                            <img src={cardpic} className="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
