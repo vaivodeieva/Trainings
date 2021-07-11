@@ -27,7 +27,7 @@ function ArticlesComponent() {
             <NavLink 
             className="header-color-2" 
             style={{textDecoration: 'none', color: 'darkRed', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}} 
-            to="./category">Tiny story books</NavLink>
+            to="./article">Tiny story books</NavLink>
             </h5>
             <p className="card-text text-align text-wrap lh-1">
               This is some text about our tiny story books. And this is some more text. Here goes some additional
@@ -68,7 +68,7 @@ function ArticlesComponent() {
             <NavLink 
             className="header-color-2" 
             style={{textDecoration: 'none', color: 'darkBlue', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}} 
-            to="./category">Tiny notice books</NavLink>
+            to="./article">Tiny notice books</NavLink>
 
             </h5>
             <p class="card-text text-align text-wrap lh-1">
@@ -110,7 +110,7 @@ function ArticlesComponent() {
             <NavLink 
             className="header-color-3" 
             style={{textDecoration: 'none', color: 'green', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}} 
-            to="./category">Tiny notice books</NavLink>
+            to="./article">Tiny notice books</NavLink>
 
             </h5>
             <p className="card-text text-align text-wrap lh-1">
