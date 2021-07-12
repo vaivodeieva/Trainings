@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import "../css/Register.css";
 import { useSpring, animated } from "react-spring";
 
+// import { } from 'react'
+import Select from 'react-select'
+import Creatable from 'react-select/creatable';
+
+
+
+
 function RegisterComponent() {
   const [registrationFormStatus, setRegistartionFormStatus] = useState(false);
   const loginProps = useSpring({
@@ -28,6 +35,16 @@ function RegisterComponent() {
   function loginClicked() {
     setRegistartionFormStatus(false);
   }
+
+  const options = [
+    { value: 'chocolate', label: 'Chocolate' },
+    { value: 'strawberry', label: 'Strawberry' },
+    { value: 'vanilla', label: 'Vanilla' }
+  ]
+  
+  const MyComponent = () => (
+    <Select options={options} />
+  )
 
   return (
       <div className="registercontainer"> 
@@ -94,21 +111,24 @@ function RegisterForm() {
       <label for="lastname">last name</label>
       <input type="text" id="lastname" />
 
-      <select className="form-select" aria-label="Default select example" name="country"
+      {/* <select className="form-select" aria-label="Default select example" name="country"
         id="input-country-field" style={{ fontSize: '16px' }}>
         <option selected disabled required >COUNTRY *</option>
         <option value="1" style={{ color: 'darkBlue' }}>Latvia</option>
         <option value="2" style={{ color: 'darkBlue' }} >Italy</option>
         <option value="3" style={{ color: 'darkBlue' }}>France</option>
-      </select>
+      </select> */}
 
 
-     <div className="align-left" style={{ display: 'flex', justifyContent: 'row', textAlign: 'left'}}>
+     {/* <div className="align-left" style={{ display: 'flex', justifyContent: 'row', textAlign: 'left'}}>
      <label style={{color: 'black'}}>
         <input type="checkbox" />
         Agree with terms
       </label>
-      </div>
+      </div> */}
+
+
+
    
 
       <input type="submit" value="submit" className="submit align-center" />

@@ -10,8 +10,8 @@ html * {
   }
   
   .registercontainer {
-    /* background-image: url(pic.jpg); */
-    background-color: darkgreen;
+    background-image: url('../pic.jpg');
+    /* background-color: darkgreen; */
     background-size:  cover;
     background-position:center center;
     
