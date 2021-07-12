@@ -1,5 +1,5 @@
 /* Reset styles */
-html,body, body * { 
+html * { 
     box-sizing: border-box; 
     font-family: 'Open Sans', sans-serif; 
     margin:0;
@@ -9,8 +9,9 @@ html,body, body * {
     /* border:2px solid orange; */
   }
   
-  body {
-    background-image: url('../pic.jpg');
+  .registercontainer {
+    /* background-image: url(pic.jpg); */
+    background-color: darkgreen;
     background-size:  cover;
     background-position:center center;
     
@@ -121,20 +122,5 @@ html,body, body * {
     }
   
   
-  
-    /* .form-check-input {
-      display: contents!important;
-    } */
-  
-  
-    /* .form-check-input {
-      display: inline-block!important;
-    } */
-  
-  
-    /* .form-check-input {
-      white-space: nowrap;
-      display: inline-flex; 
-    } */
   
    
