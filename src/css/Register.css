@@ -113,10 +113,10 @@ html,body, body * {
   
     form, .forgot-panel { 
         position: relative;
-        transition: all .2s ease;
+        transition: all .1s ease;
     }
     #loginBtn, #registerBtn {
-        transition: all .2s ease;
+        transition: all .1s ease;
   
     }
   
