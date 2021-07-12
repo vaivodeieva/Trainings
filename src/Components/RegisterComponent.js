@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import "../css/Register.css";
 import { useSpring, animated } from "react-spring";
 
-// import { } from 'react'
-import Select from 'react-select'
-import Creatable from 'react-select/creatable';
-
 
 
 
@@ -35,16 +31,6 @@ function RegisterComponent() {
   function loginClicked() {
     setRegistartionFormStatus(false);
   }
-
-  const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
-  ]
-  
-  const MyComponent = () => (
-    <Select options={options} />
-  )
 
   return (
       <div className="registercontainer"> 
