@@ -1,170 +1,140 @@
-/* index.css */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-
-
-* {
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.mr-20 {
-    margin-right: 20px !important;
-}
-
-
-
-
-/* App.css */
-
-
-.App {
-    height: 100vh;
-    display: flex;
-    color: white;
+/* Reset styles */
+html,body, body * { 
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; 
+    margin:0;
+    padding:0;
+    color:inherit;
+    background-color:inherit;
+    /* border:2px solid orange; */
   }
   
-  .App__Aside {
-    width: 50%;
-    background-color: rgb(231, 166, 220);
-    text-align: center;
-    font-size: xx-large;
-    font-family: algerian;
+  body {
+    background-image: url('../pic.jpg');
+    background-size:  cover;
+    background-position:center center;
+    
+  }
+  .container {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 100px;
   }
   
-  .App__Form {
-    width: 50%;
-    background-color: rgb(59, 41, 83);
-    padding: 25px 40px;
-    overflow: auto;
+  
+  .login-register-wrapper {
+      height: 750px;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      padding:0 2em;
+      border-radius: 5px;
+      box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+      overflow: hidden; 
+      color:#ffffff;
+      background: linear-gradient(180deg, rgba(19,38,79,1) 0%, rgba(22,147,198,1) 52%, rgba(255,255,255,0) 82%);
   }
   
-  .PageSwitcher {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 10%;
+  /* Nav buttons */
+  .nav-buttons {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    opacity: 1;
+    margin-bottom: 3em;
   }
+  button {
+      font-size: 1.5em;
+      margin-right:1em;
+      border:0px;
+      cursor: pointer;
+   
+  }
+  button:focus {
+      outline: 0px;
+  }
+  button.active {
+      padding-bottom: 10px;
+      border-bottom: solid 2px #1059FF;
+  } 
   
-  .PageSwitcher__Item {
-    background-color: #4C5D72;
-    color: #9DA6B1;
-    padding: 10px 25px;
-    cursor: pointer;
-    font-size: .9em;
-    border: none;
-    outline: none;
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  .PageSwitcher__Item--Active {
-    background-color: rgb(157, 126, 228);
-    color: white;
-  }
-  
-  .PageSwitcher__Item:first-child {
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-  }
-  .PageSwitcher__Item:last-child {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-  }
-  
-  .FormCenter {
-    margin-bottom: 100px;
-  }
-  
-  .FormTitle {
-    color: #707C8B;
-    font-weight: 300;
-    margin-bottom: 50px;
-  }
-  
-  .FormTitle__Link {
-    color: #707C8B;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.7em;
-    margin: 0 10px;
-    padding-bottom: 5px;
-  }
-  
-  .FormTitle__Link:first-child {
-    margin-left: 0;
-  }
-  
-  .FormTitle__Link--Active {
-    color: white;
-    border-bottom: 1px solid rgb(157, 126, 228);
-  }
-  
-  .FormField {
-    margin-bottom: 40px;
-  }
-  
-  .FormField__Label {
-    display: block;
-    text-transform: uppercase;
-    font-size: .9em;
-    color: white;
-  }
-  .FormField__Input {
-    width: 85%;
-    background-color: transparent;
-    border: none;
-    color: white;
-    outline: none;
-    border-bottom: 1px solid #445366;
-    font-size: 1em;
-    font-weight: 300;
-    padding-bottom: 10px;
-    margin-top: 10px;
-  }
-  
-  .FormField__Input::placeholder {
-    color: #616E7F;
-  }
-  
-  .FormField__Button {
-    background-color:rgb(157, 126, 228);
-    color: white;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    padding: 15px 70px;
-    font-size: .8em;
-    font-weight: 500;
-  }
-  
-  .FormField__Link {
-    color: #66707D;
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 1.5px solid rgb(157, 126, 228);
-    padding-bottom: 5px;
-  }
-  
-  .FormField__CheckboxLabel {
-    color: #646F7D;
-    font-size: .9em;
-  }
-  
-  .FormField__Checkbox {
+   /* footer: forgot section */
+   .forgot-panel {
     position: relative;
-    top: 1.5px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 24px;
+    border-top: solid 1px rgba(255,255,255,.3);    
   }
   
-  .FormField__TermsLink {
-    color: white;
-    border-bottom: 1px solid rgb(157, 126, 228);
-    text-decoration: none;
-    display: inline-block;
-    padding-bottom: 2px;
-    margin-left: 5px;
-  }
+    /* form styling */
+    .form-group input {
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background: rgba(255,255,255,.5);
+    }
+    .form-group label {
+      text-transform: uppercase;
+    }
+    input.submit {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1em;
+        text-align: center;
+        color: rgba(255,255,255, 1);
+        padding: 8px 0px;
+        width: 100%;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 23px;
+        background-color: rgba(16,89,255, 1);
+    
+    }
+  
+    /*Form positioning and animation */
+  
+    form#registerform {
+        left:500px;
+        top:-230px;
+        position:relative;
+    }
+  
+    .forgot-panel {
+        margin-top:-300px;
+        color:gray;
+    }
+  
+    form, .forgot-panel { 
+        position: relative;
+        transition: all .2s ease;
+    }
+    #loginBtn, #registerBtn {
+        transition: all .2s ease;
+  
+    }
+  
+  
+  
+    /* .form-check-input {
+      display: contents!important;
+    } */
+  
+  
+    /* .form-check-input {
+      display: inline-block!important;
+    } */
+  
+  
+    /* .form-check-input {
+      white-space: nowrap;
+      display: inline-flex; 
+    } */
+  
+   
