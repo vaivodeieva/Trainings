@@ -32,9 +32,8 @@ function Header() {
                             <NavLink className="nav-link" exact to="/" style={{fontFamily: 'cursive'}}>Home</NavLink>
                             <NavLink className="nav-link" to="/articles" style={{fontFamily: 'cursive'}}>Articles</NavLink>
                             <NavLink className="nav-link" to="/chat" style={{fontFamily: 'cursive'}}>Chat</NavLink>
+                            <NavLink className="nav-link" to="/register" style={{fontFamily: 'cursive'}}>Join</NavLink>
                             <NavLink className="nav-link" to="/aboutus" style={{fontFamily: 'cursive'}}>About Us</NavLink>
-                            <NavLink className="nav-link" to="/register" style={{fontFamily: 'cursive'}}>Join Us</NavLink>
-
                           
                         </div>
                     </div>
