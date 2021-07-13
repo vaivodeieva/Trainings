@@ -9,13 +9,13 @@ const options = [
    
 ]
 
-const customStyles = {
-    control: base => ({
-      ...base,
-      height: 15,
-      minHeight: 15
-    })
-  };
+// const customStyles = {
+//     control: base => ({
+//       ...base,
+//       height: 15,
+//       minHeight: 15
+//     })
+//   };
 
 
 function RegisterSlect() {
@@ -25,7 +25,7 @@ function RegisterSlect() {
         <div>
 
             <Select
-             options={options} className="select-field" placeholder="Select your favorite programming language *" styles={customStyles}
+             options={options} className="select-field" placeholder="Select your favorite programming language *" 
             />
         </div>
     )
