@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../css/Register.css";
 import { useSpring, animated } from "react-spring";
-
+import RegisterSlect from "./RegisterSelect";
 
 
 
@@ -31,6 +31,8 @@ function RegisterComponent() {
   function loginClicked() {
     setRegistartionFormStatus(false);
   }
+
+
 
   return (
       <div className="registercontainer"> 
@@ -114,7 +116,7 @@ function RegisterForm() {
       </div> */}
 
 
-
+    <RegisterSlect />
    
 
       <input type="submit" value="submit" className="submit align-center" />
