@@ -92,6 +92,10 @@ html * {
     } */
 
 
+    .hide-password {
+        -webkit-text-security: disc;
+    }
+
 
     .form-group label {
       text-transform: uppercase;

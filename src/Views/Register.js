@@ -82,8 +82,8 @@ function LoginForm() {
     <React.Fragment>
       <label for="username">USERNAME</label>
       <input type="text" id="username" required />
-      <label for="password">PASSWORD</label>
-      <input type="text" id="password" required />
+      <label for="password" >PASSWORD</label>
+      <input type="text" className="hide-password" id="password" required />
       <input type="submit" value="submit" className="submit" />
     </React.Fragment>
   );
@@ -96,7 +96,7 @@ function RegisterForm() {
       <input type="text" id="username" required />
 
       <label for="password">password *</label>
-      <input type="text" id="password" required />
+      <input type="text" className="hide-password" id="password" required/>
 
       <label for="confirmpassword">confirm password *</label>
       <input type="text" id="confirmpassword" required />
