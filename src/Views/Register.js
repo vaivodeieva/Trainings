@@ -107,17 +107,19 @@ function RegisterForm() {
       <label for="lastname">last name</label>
       <input type="text" id="lastname" />
 
+      <RegisterSelect />
+
+      <label for="checkbox" className="position-relative">I agree with all of the terms and conditions *</label>
+      <input type="checkbox" className=" checkbox" id="checkbox" required />
+
       
-     <div className="align-left register-checkbox" style={{ display: 'flex', justifyContent: 'row', textAlign: 'left', height: 'auto'}}>
+     {/* <div className="align-left register-checkbox" style={{ display: 'flex', justifyContent: 'row', textAlign: 'left', height: 'auto'}}>
      <label style={{color: 'black'}}>
         <input type="checkbox" />
         Terms
       </label>
-      </div>
+      </div> */}
 
-
-    <RegisterSelect />
-   
 
       <input type="submit" value="submit" className="submit align-center" />
     </React.Fragment>

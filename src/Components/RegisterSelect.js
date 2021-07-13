@@ -4,9 +4,7 @@ import '../css/RegisterSelect.css';
 
 const options = [
     { label: 'Javascript', value: 'javascript' },
-    { label: 'JAVA', value: 'java' },
-    { label: 'Dzintars', value: 'dzintars' },
-   
+    { label: 'JAVA', value: 'java' }, 
 ]
 
 // const customStyles = {
