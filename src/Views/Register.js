@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../css/Register.css";
 import { useSpring, animated } from "react-spring";
 import RegisterSelect from '../Components/RegisterSelect'
-import RegisterCheckbox from "../Components/RegisterCheckbox";
 
 
 
@@ -63,12 +62,7 @@ function Register() {
           <RegisterForm />
         </animated.form>
       </div>
-      <RegisterCheckbox />
       </div>
-
-      {/* <animated.div className="forgot-panel" style={loginProps}>
-        <a herf="#">Forgot your password?</a>
-      </animated.div> */}
 
     </div>
    
@@ -91,6 +85,7 @@ function LoginForm() {
 
 function RegisterForm() {
   return (
+      <div>
     <React.Fragment>
       <label for="username">username *</label>
       <input type="text" id="username" required />
@@ -108,29 +103,21 @@ function RegisterForm() {
       <input type="text" id="lastname" />
 
       <RegisterSelect />
+      </React.Fragment>
 
-      <label for="checkbox" className="position-relative">I agree with all of the terms and conditions *</label>
-      <input type="checkbox" className=" checkbox" id="checkbox" required />
+       <div className="row">
+           <div className="col">
+           <label for="checkbox" className="d-flex flex align-center" required>Agree with the terms and conditions * </label>
+      <input type="checkbox" required className=" checkbox" id="checkbox" />
+           </div>
+       </div>
 
       
-     {/* <div className="align-left register-checkbox" style={{ display: 'flex', justifyContent: 'row', textAlign: 'left', height: 'auto'}}>
-     <label style={{color: 'black'}}>
-        <input type="checkbox" />
-        Terms
-      </label>
-      </div> */}
-
 
       <input type="submit" value="submit" className="submit align-center" />
-    </React.Fragment>
-    
+      </div>
   );
 }
 
 export default Register;
 
-
-
-
-{/* <label for="email">email</label>
-      <input type="text" id="email" /> */}

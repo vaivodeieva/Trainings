@@ -16,21 +16,22 @@ const options = [
 //   };
 
 
-function RegisterSlect() {
+function RegisterSelect() {
 
 
     return (
         <div>
 
             <Select
-             options={options} className="select-field" placeholder="Select your favorite programming language *" 
+             options={options} className="select-field" placeholder="Select your favorite programming language *"
+            
             />
         </div>
     )
 }
 
 
-export default RegisterSlect;
+export default RegisterSelect;
 
 
 
