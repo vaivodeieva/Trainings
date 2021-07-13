@@ -1,13 +1,21 @@
 import Select from 'react-select';
-import registerSelect from '../css/RegisterSelect.css';
+import '../css/RegisterSelect.css';
 
 
 const options = [
-    { label: 'React', value: 'react' },
-    { label: 'React-Native', value: 'react-native' },
-    { label: 'React JS', value: 'react js' },
+    { label: 'Javascript', value: 'javascript' },
+    { label: 'JAVA', value: 'java' },
+    { label: 'Dzintars', value: 'dzintars' },
    
 ]
+
+const customStyles = {
+    control: base => ({
+      ...base,
+      height: 15,
+      minHeight: 15
+    })
+  };
 
 
 function RegisterSlect() {
@@ -17,7 +25,7 @@ function RegisterSlect() {
         <div>
 
             <Select
-             options={options} className="select-field" placeholder="Select your country *"
+             options={options} className="select-field" placeholder="Select your favorite programming language *" styles={customStyles}
             />
         </div>
     )

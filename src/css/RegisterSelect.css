@@ -2,5 +2,14 @@
 opacity: 0.5;
 font-weight: 500;
 color: black;
-border-radius: 10px;
+
+-webkit-appearance: menulist-button!important;
+    height: 20px!important;
 }
+
+
+
+/* .className {
+    -webkit-appearance: menulist-button;
+    height: 50px;
+ } */
