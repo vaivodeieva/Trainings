@@ -24,7 +24,7 @@ html * {
   
   
   .login-register-wrapper {
-      height: 750px;
+      height: 770px;
       width: 500px;
       margin-left: auto;
       margin-right: auto;
@@ -94,7 +94,8 @@ html * {
         height: 35px;
         border: none;
         border-radius: 20px;
-        margin-top: 23px;
+        margin-top: 5px;
+        /* margin-top: 23px; */
         background-color: rgba(16,89,255, 1);
     
     }

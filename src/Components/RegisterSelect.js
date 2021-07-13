@@ -17,7 +17,7 @@ function RegisterSlect() {
         <div>
 
             <Select
-             options={options} className="select-field"
+             options={options} className="select-field" placeholder="Select your country *"
             />
         </div>
     )
