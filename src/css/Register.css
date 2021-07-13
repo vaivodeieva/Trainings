@@ -127,8 +127,7 @@ html * {
     }
     #loginBtn, #registerBtn {
         transition: all .1s ease;
-        font-size: 28px;
-        padding-left: 5px;
+        font-size: 27px;
         padding-right: 10px;
   
     }
