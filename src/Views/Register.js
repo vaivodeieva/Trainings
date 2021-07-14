@@ -125,9 +125,12 @@ function RegisterForm() {
       </React.Fragment>
 
        <div className="row">
-           <div className="col">
-           <label for="checkbox" className="d-flex flex align-center" required>Agree with the terms and conditions * </label>
-      <input type="checkbox" required className=" checkbox" id="checkbox" />
+           <div className="col-1">
+           <input type="checkbox" required className="checkbox" id="checkbox" />
+           </div>
+
+           <div className="col-11">
+           <label for="checkbox" className="checkbox-label" required>Agree with the terms and conditions * </label>
            </div>
        </div>
 
@@ -138,4 +141,6 @@ function RegisterForm() {
 }
 
 export default Register;
+
+
 
