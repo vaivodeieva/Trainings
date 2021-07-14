@@ -59,8 +59,8 @@ function App() {
                         <Widget
                             handleNewUserMessage={handleNewUserMessage}
                             profileAvatar={logo}
-                            title="My new awesome title"
-                            subtitle="And my cool subtitle"
+                            title="Do you have a question?"
+                            subtitle="Leave us a message"
                         />
                         </div>
 
