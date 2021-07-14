@@ -4,23 +4,23 @@ import { useSpring, animated } from "react-spring";
 import RegisterSelect from '../Components/RegisterSelect'
 
 
-const styles={
-    app: {
-    backgroundColor: 'rgba(0,0,0,0.1)',
-    justifyItems: 'left',
-    display: 'grid',
-    height: '100vh',
-    fontFamily: 'Arial',
-    color: 'rgba(0,0,100,100)',
-    gridTemplateColumns: '1fr'
-    },
+// const styles={
+//     app: {
+//     backgroundColor: 'rgba(0,0,0,0.1)',
+//     justifyItems: 'left',
+//     display: 'grid',
+//     height: '100vh',
+//     fontFamily: 'Arial',
+//     color: 'rgba(0,0,100,100)',
+//     gridTemplateColumns: '1fr'
+//     },
 
-  select:{
-  width: '100%',
-  maxWidth: '600px',
+//   select:{
+//   width: '100%',
+//   maxWidth: '600px',
   
-  } 
-    };
+//   } 
+//     };
 
 function Register() {
   const [registrationFormStatus, setRegistartionFormStatus] = useState(false);
@@ -121,7 +121,7 @@ function RegisterForm() {
       <input type="text" id="lastname" />
 
 
-      <RegisterSelect style={styles.select} />
+      <RegisterSelect />
       </React.Fragment>
 
        <div className="row">

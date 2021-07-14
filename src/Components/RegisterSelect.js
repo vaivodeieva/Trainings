@@ -3,13 +3,11 @@ import '../css/RegisterSelect.css';
 
 
 const options = [
-    { label: 'Javascript', value: 'javascript' },
     { label: 'JAVA', value: 'java' }, 
     { label: 'Dzintars', value: 'dzintars' }, 
+    { label: 'Javascript', value: 'javascript' },
+    { label: 'PHP', value: 'php' }, 
 ]
-
-
-
 
 
 function RegisterSelect(styles) {
