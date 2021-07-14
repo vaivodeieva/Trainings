@@ -9,7 +9,6 @@ import Chat from './Views/Chat';
 import Register from './Views/Register';
 import AboutUs from './Views/AboutUs';
 import Page404 from './Views/Page404';
-import InputForm from './InputForm';
 
 
 function App() {
@@ -33,7 +32,6 @@ function App() {
 
                     <Route path="/chat">
                         <Chat />
-                        <InputForm />
                     </Route>
 
                     <Route path="/register">
