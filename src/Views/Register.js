@@ -122,6 +122,7 @@ function RegisterForm() {
 
 
       <RegisterSelect />
+      
       </React.Fragment>
 
        <div className="row">

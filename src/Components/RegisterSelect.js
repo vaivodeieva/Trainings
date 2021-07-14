@@ -10,15 +10,16 @@ const options = [
 ]
 
 
-function RegisterSelect(styles) {
+function RegisterSelect() {
 
 
     return (
-        <div style={styles.app}>
+        <div >
         
-            <Select
-             options={options}  className="select-field" placeholder="Select your favorite programming language *"
-            
+            <Select 
+             options={options}  className="select-field" required placeholder="Select your favorite programming language *"
+
+             
             />
         </div>
     )
