@@ -12,11 +12,31 @@ import Page404 from './Views/Page404';
 
 
 
+import React from 'react';
+import 'react-chat-widget/lib/styles.css';
+import { Widget, addResponseMessage } from 'react-chat-widget';
+import logo from './Assets/Images/logo-chat.jpg';
+import { useEffect } from 'react';
+import response from 'react-chat-widget';
+
+
 function App() {
-  return (
-    <div>
-      <Router>
-            <Header />
+
+    useEffect(() => {
+        addResponseMessage('Welcome to this awesome chat!');
+      }, []);
+    
+      const handleNewUserMessage = (newMessage) => {
+        console.log(`New message incoming! ${newMessage}`);
+        // Now send the message throught the backend API
+        // addResponseMessage(response);
+      };
+   
+
+    return (
+        <div>
+            <Router>
+                <Header />
                 <Switch>
 
                     <Route exact path="/">
@@ -32,7 +52,19 @@ function App() {
                     </Route>
 
                     <Route path="/chat">
+
+
+                        <div className="App">
                         <Chat />
+                        <Widget
+                            handleNewUserMessage={handleNewUserMessage}
+                            profileAvatar={logo}
+                            title="My new awesome title"
+                            subtitle="And my cool subtitle"
+                        />
+                        </div>
+
+
                     </Route>
 
                     <Route path="/register">
@@ -50,9 +82,9 @@ function App() {
                 </Switch>
                 <Footer />
             </Router>
-     
-    </div>
-  );
+
+        </div>
+    );
 }
 
 export default App;
