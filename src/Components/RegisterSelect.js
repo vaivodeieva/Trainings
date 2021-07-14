@@ -15,18 +15,21 @@ function RegisterSelect() {
 
     return (
         <div >
-        
+        {/* <FormControl> */}
             <Select 
-             options={options}  className="select-field" required placeholder="Select your favorite programming language *"
+             options={options}  className="select-field" placeholder="Select your favorite programming language *"
 
              
             />
+            {/* </FormControl> */}
         </div>
     )
 }
 
 
 export default RegisterSelect;
+
+
 
 
 

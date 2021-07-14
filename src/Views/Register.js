@@ -4,23 +4,7 @@ import { useSpring, animated } from "react-spring";
 import RegisterSelect from '../Components/RegisterSelect'
 
 
-// const styles={
-//     app: {
-//     backgroundColor: 'rgba(0,0,0,0.1)',
-//     justifyItems: 'left',
-//     display: 'grid',
-//     height: '100vh',
-//     fontFamily: 'Arial',
-//     color: 'rgba(0,0,100,100)',
-//     gridTemplateColumns: '1fr'
-//     },
 
-//   select:{
-//   width: '100%',
-//   maxWidth: '600px',
-  
-//   } 
-//     };
 
 function Register() {
   const [registrationFormStatus, setRegistartionFormStatus] = useState(false);
@@ -109,10 +93,10 @@ function RegisterForm() {
       <input type="text" id="username" required />
 
       <label for="password">password *</label>
-      <input type="text" className="hide-password" id="password" required/>
+      <input type="text" className="hide-password" minlength="8" id="password" required/>
 
       <label for="confirmpassword">confirm password *</label>
-      <input type="text" className="hide-password" id="confirmpassword" required />
+      <input type="text" className="hide-password" minlength="8" id="confirmpassword" required />
 
       <label for="firstname">first name *</label>
       <input type="text" id="firstname" required />
