@@ -1,3 +1,40 @@
+// function Chat() {
+
+//     return (
+//         <div>
+
+//         </div>
+//     )
+// }
+
+// export default Chat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { useEffect } from 'react';
 import 'react-chat-widget/lib/styles.css';
 import { Widget, addResponseMessage } from 'react-chat-widget';
@@ -13,7 +50,7 @@ function Chat() {
       }, []);
     
       const handleNewUserMessage = (newMessage) => {
-        console.log(`New message incoming! ${newMessage}`);
+        console.log(`New message incoming!  ${newMessage}`);
         // Now send the message throught the backend API
         // addResponseMessage(response);
         
@@ -27,7 +64,8 @@ function Chat() {
                             handleNewUserMessage={handleNewUserMessage}
                             profileAvatar={logo}
                             title="Do you have a question?"
-                            subtitle="Leave us a message"
+                            subtitle="We'll replay within a few minutes!"
+                            
                         />
                         </div>
     )

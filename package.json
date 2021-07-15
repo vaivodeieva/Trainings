@@ -15,6 +15,7 @@
     "react-chat-plugin": "^0.1.17",
     "react-chat-widget": "^3.0.5",
     "react-dom": "^17.0.2",
+    "react-mentions": "^4.3.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-select": "^4.3.1",
