@@ -41,6 +41,8 @@ import { Widget, addResponseMessage } from 'react-chat-widget';
 import logo from '../Assets/Images/logo-chat.jpg';
 // import { response } from 'express';
 
+import Application from '../Components/Application';
+
 
 
 function Chat() {
@@ -58,7 +60,9 @@ function Chat() {
 
     return (
 
-        <div className="Application">
+        <div>
+
+            <Application />
                         
                         <Widget
                             handleNewUserMessage={handleNewUserMessage}
