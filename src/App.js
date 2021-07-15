@@ -12,12 +12,10 @@ import Page404 from './Views/Page404';
 
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'react-chat-widget/lib/styles.css';
 import { Widget, addResponseMessage } from 'react-chat-widget';
 import logo from './Assets/Images/logo-chat.jpg';
-import { useEffect } from 'react';
-import response from 'react-chat-widget';
 
 
 function App() {
@@ -29,7 +27,7 @@ function App() {
       const handleNewUserMessage = (newMessage) => {
         console.log(`New message incoming! ${newMessage}`);
         // Now send the message throught the backend API
-        // addResponseMessage(response);
+        addResponseMessage(`How can I help you?`);
       };
    
 
