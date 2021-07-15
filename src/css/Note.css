@@ -44,18 +44,18 @@
 
 
   .note {
-    /* background: #fff; */
-    background: pink;
+    background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
-    width: 240px;
-    margin: 16px;
+    width: 200px;
+    margin: 10px auto;
     float: center;
   }
+
   .note h1 {
     font-size: 1.1em;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
   }
   .note p {
     font-size: 1.1em;
@@ -78,7 +78,7 @@
   
   .add-note {
     position: relative;
-    width: 480px;
+    width: 600px;
     margin: 30px auto 20px auto;
     background: #fff;
     padding: 15px;
