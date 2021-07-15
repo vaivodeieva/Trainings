@@ -3,7 +3,7 @@ import Note from "./Note";
 import CreateArea from "./CreateArea";
 import '../css/Note.css';
 
-function Application() {
+function NoteApp() {
   const [notes, setNotes] = useState([]);
 
   function addNote(newNote) {
@@ -38,4 +38,4 @@ function Application() {
   );
 }
 
-export default Application;
+export default NoteApp;

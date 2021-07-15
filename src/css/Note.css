@@ -1,21 +1,40 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
-
-  
-
   html {
     font-family: "Montserrat", sans-serif;
   }
   body {
     background: #eee;
     padding: 0 16px;
+  } */
+  
+  /* header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
   
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+   */
+  /* footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
   
-
+  footer p {
+    color: #ccc;
+  } */
   .note {
     background: #fff;
     border-radius: 7px;
@@ -48,7 +67,7 @@
     outline: none;
   }
   
-  form {
+  .add-note {
     position: relative;
     width: 480px;
     margin: 30px auto 20px auto;
@@ -57,8 +76,8 @@
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(138, 137, 137);
   }
-  form input,
-  form textarea {
+  .note-form-input,
+  .note-textarea {
     width: 100%;
     border: none;
     padding: 4px;
@@ -67,7 +86,7 @@
     font-family: inherit;
     resize: none;
   }
-  form button {
+  .note-btn {
     position: absolute;
     right: 18px;
     bottom: -18px;
