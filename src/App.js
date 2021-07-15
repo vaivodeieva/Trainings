@@ -12,14 +12,9 @@ import Page404 from './Views/Page404';
 
 
 
-
 function App() {
 
     
-        
-
-   
-
     return (
         <div>
             <Router>
@@ -39,7 +34,7 @@ function App() {
                     </Route>
 
                     <Route path="/chat">
-
+                    
                         <Chat />
                         
                     </Route>
@@ -60,6 +55,7 @@ function App() {
                 <Footer />
             </Router>
 
+            
         </div>
     );
 }

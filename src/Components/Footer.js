@@ -1,3 +1,5 @@
+// import '../css/Footer.css'
+
 function Footer() {
 
     let date = new Date();

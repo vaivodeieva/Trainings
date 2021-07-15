@@ -27,7 +27,24 @@ function CreateArea(props) {
   }
 
   return (
-    <div>
+      <div>
+
+          
+
+    <div className="note-container">
+        <div className="row">
+            <div className="col">
+            
+            </div>
+
+            <div className="col">
+
+            </div>
+        </div>
+    </div>
+
+    
+        
       <form className="add-note">
         <input className="note-form-input"
           name="title"
@@ -44,7 +61,8 @@ function CreateArea(props) {
         />
         <button className="note-btn" onClick={submitNote}>Add</button>
       </form>
-    </div>
+
+      </div>
   );
 }
 
