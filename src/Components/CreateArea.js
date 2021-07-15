@@ -27,10 +27,9 @@ function CreateArea(props) {
   }
 
   return (
-      <div>
+      <div className="colorful-background">
 
-          
-
+        
     <div className="note-container">
         <div className="row">
             <div className="col">

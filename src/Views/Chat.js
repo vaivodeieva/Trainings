@@ -24,7 +24,7 @@ function Chat() {
   }
 
   return (
-    <div>
+    <div className="colorful-background">
       <CreateArea onAdd={addNote} />
       {notes.map((noteItem, index) => {
         return (

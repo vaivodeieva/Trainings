@@ -42,6 +42,11 @@
   
   }
 
+  body {
+    background-color: lightcoral;
+
+  }
+
 
   .note {
     background: #fff;
@@ -70,10 +75,10 @@
     margin-right: 10px;
     color: #f5ba13;
     border: none;
-    width: 36px;
-    height: 36px;
+    width: 1px;
+    height: 1px;
     cursor: pointer;
-    outline: none;
+    outline: 10px;
   }
   
   .add-note {
@@ -90,7 +95,7 @@
     width: 100%;
     border: none;
     padding: 4px;
-    outline: none;
+    outline: 10px;
     font-size: 1.2em;
     font-family: inherit;
     resize: none;
@@ -108,5 +113,10 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     outline: none;
+  }
+
+
+  .colorful-background {
+    background-color: lightcoral;
   }
   
