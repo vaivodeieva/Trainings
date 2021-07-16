@@ -35,7 +35,7 @@ function App() {
 
                     <Route path="/chat">
                     
-                        <Chat />
+                        <Chat className="colorful-background" />
                         
                     </Route>
 

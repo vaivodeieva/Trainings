@@ -98,6 +98,7 @@ function RegisterForm() {
       <label for="confirmpassword">confirm password *</label>
       <input type="text" className="hide-password" minlength="8" id="confirmpassword" required />
 
+    
       <label for="firstname">first name *</label>
       <input type="text" id="firstname" required />
 

@@ -8,19 +8,19 @@ import cardpic from '../Assets/Images/card-pic.jpg';
 function Home() {
     const categories = [
         {
-            title: 'Category 1',
+            title: 'Tiny story books',
             image: slider1,
             text: 'Some text which describes the category',
             id: 'first-category',
         },
         {
-            title: 'Category 2',
+            title: 'Tiny photo books',
             image: slider2,
             text: 'Some text which describes the category',
             id: 'second-category',
         },
         {
-            title: 'Category 3',
+            title: 'Tiny notice books',
             image: slider3,
             text: 'Some text which describes the category',
             id: 'tird-category',
@@ -38,7 +38,7 @@ function Home() {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <NavLink to={'/categories/' + category.id}>
+                                    <NavLink to={'/articles/' + category.id}>
                                         {category.title}
                                     </NavLink>
                                 </h5>
