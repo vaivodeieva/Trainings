@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useState } from 'react';
 import NewTaskForm from '../Components/NewTaskForm';
 import TasksList from '../Components/TasksList';
+import "../css/Chat.css";
 
 function Chat() {
     const [counter, setCounter] = useState(0);
@@ -10,16 +11,19 @@ function Chat() {
         setCounter(counter + 1);
     }
 
+    
+
+
     return (
-        <div className="container">
-            <div className="row">
+        <div className="chat-container" >
+            <div>
                 <div className="col">
-                    <h1>My Tasks</h1>
+                    <h1>My agenda</h1>
                 </div>
             </div>
-            <div className="row">
+            <div className="row ">
                 <div className="col">
-                    <TasksList reloadTaskList={reloadTaskList} counter={counter} />
+                     <TasksList reloadTaskList={reloadTaskList} counter={counter} />
                 </div>
             </div>
             <NewTaskForm reloadTaskList={reloadTaskList} />

@@ -1,0 +1,40 @@
+
+/* .chat-container {
+ background-image: url('../chat.jpg');
+} */
+
+html * { 
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; 
+    margin:0;
+    padding:0;
+    color:inherit;
+    background-color:inherit;
+    /* border:2px solid orange; */
+  }
+  
+  .registercontainer {
+    background-image: url('../pic.jpg');
+    /* background-color: darkgreen; */
+    background-size:  cover;
+    background-position:center center;
+    
+  }
+  .container {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 100px;
+  }
+
+  .chat-container {
+    height: 770px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 2em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    color:#ffffff;
+    background: linear-gradient(180deg, rgba(19,38,79,1) 0%, rgba(22,147,198,1) 52%, rgba(255,255,255,0) 82%);
+}

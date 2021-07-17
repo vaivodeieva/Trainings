@@ -53,7 +53,7 @@ function TasksList({counter, reloadTaskList}) {
     }
 
     return (
-        <div>
+        <div >
             {content}
         </div>
     )
