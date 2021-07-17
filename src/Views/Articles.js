@@ -6,7 +6,7 @@ import articles from '../Data/Articles.js';
 function Articles() {
     const bredcrumbPaths = [
         { link: '/', title: 'Home' },
-        { title: 'Articless' },
+        { title: 'Articles' },
     ]
 
     const articleElements = articles.map((article, index) => {

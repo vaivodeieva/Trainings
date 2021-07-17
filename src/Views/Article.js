@@ -1,3 +1,81 @@
+
+// // import Breadcrumbs from '../Components/Breadcrumbs';
+// import { useParams } from 'react-router-dom';
+// import articles from '../Data/Articles';
+// import { SRLWrapper } from "simple-react-lightbox";
+// import { useState} from 'react';
+
+// function Article() {
+//     const { articleId } = useParams();
+//     const filteredArticles = articles.filter((article) => {return articleId == article.id});
+//     const article = filteredArticles[0];
+
+//     // const bredcrumbPaths = [
+//     //     { link: '/', title: 'Home' },
+//     //     { link: '/articles', title: 'Articles' },
+//     //     { title: article.title },
+//     // ];
+
+//     const [mainImage, setMainImage] = useState(article.image);
+
+
+//     const imageThumbnails = article.images.map((image, index) => {
+//         return (
+//             <div className="col-4 mt-3" key={index}>
+//                 <a href={image}>
+//                     <img className="img-fluid" src={image} onMouseEnter={() => setMainImage(image)} />
+//                 </a>
+//             </div>
+//         )
+//     })
+    
+
+//     return (
+//         <div className="container">
+//             <div className="row">
+//                 <div className="col">
+//                     {/* <Breadcrumbs paths={bredcrumbPaths} /> */}
+//                 </div>
+//             </div>
+
+//             <div className="row">
+//                 <div className="col">
+//                     <h1>{article.title}</h1>
+//                 </div>
+//             </div>
+//             <div className="row mb-5 pb-3">
+//                 <div className="col-12 col-md-3">
+//                 <div className="row">
+//                         <div className="col">
+//                             <img src={mainImage} className="img-fluid" />
+//                         </div>
+//                     </div>
+//                     <SRLWrapper>
+//                         <div className="row">
+//                             {imageThumbnails}
+//                         </div>
+//                     </SRLWrapper>
+//                 </div>
+//                 <div className="col-12 col-md-9">
+//                     <p className="text-muted">
+//                         {article.text}
+//                     </p>
+//                 </div>
+//             </div>
+            
+
+//         </div>
+//     )
+// }
+
+// export default Article;
+
+
+
+
+
+
+
 import { useState } from 'react';
 // import '../Assets/index.css';
 import img1 from '../Assets/Images/item-1.jpg';
@@ -6,7 +84,12 @@ import img3 from '../Assets/Images/item-3.jpg';
 import img4 from '../Assets/Images/item-4.jpg';
 import img5 from '../Assets/Images/item-5.jpg';
 import img6 from '../Assets/Images/item-6.jpg';
+import Breadcrumbs from '../Components/Breadcrumbs';
 
+const bredcrumbPaths = [
+    { link: '/', title: 'Home' },
+    { title: 'Article' },
+]
 
 function Article() {
 
@@ -39,8 +122,13 @@ const [img, setImage] = useState(img1);
   
             <div className="container">
                 <div className="row mt-3">
+               
+                <div className="col">
+                    <Breadcrumbs paths={bredcrumbPaths} />
+                </div>
                     <h2 style={{color: 'green', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}}>Tiny notice books</h2>
                 </div>
+                
                 <div className="row">
                     <div className="col-4">
                         <div className="row">

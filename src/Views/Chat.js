@@ -1,92 +1,30 @@
-import React, { useState } from "react";
-
-
-import Note from "../Components/Note";
-import CreateArea from "../Components/CreateArea";
-import '../css/Note.css'
-
+import 'bootstrap/dist/css/bootstrap.css';
+import { useState } from 'react';
+import NewTaskForm from '../Components/NewTaskForm';
+import TasksList from '../Components/TasksList';
 
 function Chat() {
-  const [notes, setNotes] = useState([]);
-// 
-  function addNote(newNote) {
-    setNotes(prevNotes => {
-      return [...prevNotes, newNote];
-    });
-  }
+    const [counter, setCounter] = useState(0);
 
-  function deleteNote(id) {
-    setNotes(prevNotes => {
-      return prevNotes.filter((noteItem, index) => {
-        return index !== id;
-      });
-    });
-  }
+    const reloadTaskList = () => {
+        setCounter(counter + 1);
+    }
 
-  return (
-    <div className="colorful-background">
-      <CreateArea onAdd={addNote} />
-      {notes.map((noteItem, index) => {
-        return (
-          <Note
-            key={index}
-            id={index}
-            title={noteItem.title}
-            content={noteItem.content}
-            onDelete={deleteNote}
-          />
-        );
-      })}
-    </div>
-  );
+    return (
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <h1>My Tasks</h1>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <TasksList reloadTaskList={reloadTaskList} counter={counter} />
+                </div>
+            </div>
+            <NewTaskForm reloadTaskList={reloadTaskList} />
+        </div>
+    );
 }
 
 export default Chat;
-
-
-
-
-
-
-
-
-
-
-
-// import React, { useEffect } from 'react';
-// import 'react-chat-widget/lib/styles.css';
-// import { Widget, addResponseMessage } from 'react-chat-widget';
-// import logo from '../Assets/Images/logo-chat.jpg';
-// // import { response } from 'express';
-
-
-
-
-// function Chat() {
-
-//     useEffect(() => {
-//         addResponseMessage('Welcome to this awesome chat!');
-//     }, []);
-
-//     const handleNewUserMessage = (newMessage) => {
-//         console.log(`New message incoming!  ${newMessage}`);
-//         // Now send the message throught the backend API
-//         // addResponseMessage(response);
-
-//     };
-
-//     return (
-
-//         <div>
-//             <Widget
-//                 handleNewUserMessage={handleNewUserMessage}
-//                 profileAvatar={logo}
-//                 title="Do you have a question?"
-//                 subtitle="We'll replay within a few minutes!"
-
-//             />
-//         </div>
-//     )
-// }
-
-// export default Chat;
