@@ -6,7 +6,7 @@ import cardpic from '../Assets/Images/card-pic.jpg';
 
 
 function Home() {
-    const categories = [
+    const articles = [
         {
             title: 'Tiny story books',
             image: slider1,
@@ -27,7 +27,7 @@ function Home() {
         },
     ];
 
-    const categoryElements = categories.map((category, index) => {
+    const articleElements = articles.map((article, index) => {
         return (
             <div className="col" key={index}>
                 <div className="card mb-3">
@@ -38,11 +38,11 @@ function Home() {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <NavLink to={'/categories' + category.id}>
-                                        {category.title}
+                                    <NavLink to={'/articles' + article.id}>
+                                        {article.title}
                                     </NavLink>
                                 </h5>
-                                <p className="card-text">{category.text}</p>
+                                <p className="card-text">{article.text}</p>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ function Home() {
                 </div>
             </div>
             <div className="row">
-                {categoryElements}
+                {articleElements}
             </div>
         </div>
     )

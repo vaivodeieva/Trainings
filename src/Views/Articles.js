@@ -1,29 +1,29 @@
 
 import Breadcrumbs from '../Components/Breadcrumbs';
 import { NavLink } from 'react-router-dom';
-import categories from '../Data/Categories.js';
+import articles from '../Data/Articles.js';
 
-function Categories() {
+function Articles() {
     const bredcrumbPaths = [
         { link: '/', title: 'Home' },
-        { title: 'Categories' },
+        { title: 'Articless' },
     ]
 
-    const categoryElements = categories.map((category, index) => {
+    const articleElements = articles.map((article, index) => {
         return (
             <div className="row mb-5 pb-3 border-bottom" key={index}>
                 <div className="col-12 col-md-3">
-                    <NavLink to={'/categories/' + category.id}>
-                        <img className="img-fluid" src={category.image} />
+                    <NavLink to={'/articles/' + article.id}>
+                        <img className="img-fluid" src={article.image} />
                     </NavLink>
 
                 </div>
                 <div className="col-12 col-md-9">
                     <h3>
-                        <NavLink to={'/categories/' + category.id}>{category.title}</NavLink>
+                        <NavLink to={'/article/' + article.id}>{article.title}</NavLink>
                     </h3>
                     <p className="text-muted">
-                        {category.text}
+                        {article.text}
                     </p>
                 </div>
             </div>
@@ -42,12 +42,12 @@ function Categories() {
                     <h1>Categories</h1>
                 </div>
             </div>
-            {categoryElements}
+            {articleElements}
         </div>
     )
 }
 
-export default Categories;
+export default Articles;
 
 
 

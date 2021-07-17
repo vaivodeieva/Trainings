@@ -1,4 +1,4 @@
-const categories = [
+const articles = [
     {
         title: 'Category 1',
         image: 'https://picsum.photos/500/500',
@@ -22,4 +22,4 @@ const categories = [
     },
 ];
 
-export default categories;
+export default articles;
