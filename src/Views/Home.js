@@ -11,19 +11,19 @@ function Home() {
             title: 'Tiny story books',
             image: slider1,
             text: 'Some text which describes the category',
-            id: 'first-category',
+            id: '1',
         },
         {
             title: 'Tiny photo books',
             image: slider2,
             text: 'Some text which describes the category',
-            id: 'second-category',
+            id: '2',
         },
         {
             title: 'Tiny notice books',
             image: slider3,
             text: 'Some text which describes the category',
-            id: 'tird-category',
+            id: '3',
         },
     ];
 
@@ -38,7 +38,7 @@ function Home() {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <NavLink to={'/articles/' + category.id}>
+                                    <NavLink to={'/categories' + category.id}>
                                         {category.title}
                                     </NavLink>
                                 </h5>
