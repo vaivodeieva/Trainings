@@ -27,6 +27,7 @@ html * {
   }
 
   .chat-container {
+      
     height: 770px;
     width: 670px;
     margin-left: auto;
@@ -39,7 +40,7 @@ html * {
     background: linear-gradient(180deg, rgb(209, 32, 156) 0%, rgba(22,147,198,1) 52%, rgba(255,255,255,0) 82%);
 }
 
-.registercontainer {
+.chat-container {
     background-image: url('../pic.jpg');
     /* background-color: darkgreen; */
     background-size:  cover;
@@ -52,3 +53,7 @@ html * {
       padding-bottom: 100px;
   }
   
+  .agenda-wrapper {
+      margin-top: 40px;
+      
+  }

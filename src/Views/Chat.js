@@ -15,9 +15,10 @@ function Chat() {
 
 
     return (
+        <div> 
         <div className="chat-container" >
             <div>
-                <div className="col">
+                <div className="col agenda-wrapper">
                     <h1>My agenda</h1>
                 </div>
             </div>
@@ -27,6 +28,7 @@ function Chat() {
                 </div>
             </div>
             <NewTaskForm reloadTaskList={reloadTaskList} />
+        </div>
         </div>
     );
 }
