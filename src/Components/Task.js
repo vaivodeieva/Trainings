@@ -38,7 +38,7 @@ function Task({task, reloadTaskList}) {
 
     let deleteBtn = ''
     if (taskCompleted) {
-        let buttonContent = <FontAwesomeIcon icon={faTrashAlt} />;
+        let buttonContent = <FontAwesomeIcon icon={faTrashAlt} className="add-task-btn" />;
         if (deletingTask) {
             buttonContent = <FontAwesomeIcon icon={faSpinner} spin />;
         }

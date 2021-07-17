@@ -38,7 +38,7 @@ function Register() {
 
   return (
     <div>
-      <div className="registercontainer"> 
+      <div className="register-container"> 
     <div className="login-register-wrapper">
       <div className="navigation-buttons">
         <animated.button

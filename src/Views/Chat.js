@@ -15,11 +15,11 @@ function Chat() {
 
 
     return (
-        <div> 
+        <div className="agenda-background" > 
         <div className="chat-container" >
-            <div>
+            <div >
                 <div className="col agenda-wrapper">
-                    <h1>My agenda</h1>
+                    <h1>My Agenda</h1>
                 </div>
             </div>
             <div className="row ">

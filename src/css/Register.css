@@ -9,7 +9,7 @@ html * {
     /* border:2px solid orange; */
   }
   
-  .registercontainer {
+  .register-container {
     background-image: url('../pic.jpg');
     /* background-color: darkgreen; */
     background-size:  cover;
