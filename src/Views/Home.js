@@ -2,8 +2,9 @@ import {NavLink} from 'react-router-dom';
 import slider1 from '../Assets/Images/slider-1.jpg';
 import slider2 from '../Assets/Images/slider-2.jpg';
 import slider3 from '../Assets/Images/slider-3.jpg';
-import cardpic from '../Assets/Images/card-pic.jpg';
 
+import cardpic from '../Assets/Images/card-pic.jpg';
+import '../css/Home.css'
 
 function Home() {
     const articles = [
@@ -91,3 +92,4 @@ function Home() {
 }
 
 export default Home;
+
