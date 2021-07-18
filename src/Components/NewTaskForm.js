@@ -2,6 +2,7 @@
 
 import Axios from "axios";
 import { useState } from "react";
+import '../css/Chat.css';
 
 function NewTaskForm({reloadTaskList}) {
     const [saving, setSaving] = useState(false);
@@ -39,14 +40,14 @@ function NewTaskForm({reloadTaskList}) {
 
     let inputField = <input className="form-control" value={newTaskName} onChange={updateNewTaskName} />
     let submitBtn = (
-        <button className="btn btn-primary mt-3" onClick={createNewTask}>
+        <button className="btn btn-primary mt-3 "  onClick={createNewTask}>
             Add new todo
         </button>
     )
     if (saving) {
         inputField = <input disabled={true} className="form-control" value={newTaskName} onChange={updateNewTaskName} />
         submitBtn = (
-            <button className="btn btn-primary mt-3 disabled" onClick={createNewTask} disabled={true}>
+            <button className="btn btn-outline mt-3 disabled " onClick={createNewTask} disabled={true}>
                 Saving...
             </button>
         )
@@ -68,7 +69,7 @@ function NewTaskForm({reloadTaskList}) {
                 </div>
             </div>
             <div className="row">
-                <div className="col">
+                <div className="col agenda-btn">
                     {submitBtn}
                 </div>
             </div>

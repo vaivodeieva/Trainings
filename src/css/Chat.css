@@ -58,4 +58,9 @@ html * {
       
   }
 
+  .agenda-btn {
+    border-radius: 50%;
+    color: pink;
+  }
+
   
