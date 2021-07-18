@@ -3,10 +3,10 @@ import '../css/RegisterSelect.css';
 
 
 const options = [
-    { label: 'JAVA', value: 'java' }, 
-    { label: 'Dzintars', value: 'dzintars' }, 
-    { label: 'Javascript', value: 'javascript' },
-    { label: 'PHP', value: 'php' }, 
+    { label: 'MARS', value: 'mars' }, 
+    { label: 'JUPITER', value: 'jupiter' }, 
+    { label: 'SATURN', value: 'saturn' },
+    { label: 'VENUS', value: 'venus' }, 
 ]
 
 
@@ -17,7 +17,7 @@ function RegisterSelect() {
         <div >
         {/* <FormControl> */}
             <Select 
-             options={options}  className="select-field" placeholder="Select your favorite programming language *"
+             options={options}  className="select-field" placeholder="SELECT THE PLANET YOU WANT TO TRAVEL TO "
 
              
             />
