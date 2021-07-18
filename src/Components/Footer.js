@@ -10,7 +10,7 @@ function Footer() {
             <footer className="pt-4 my-md-5 pt-md-5 border-top">
                 <div className="row">
                     <div className="col-12 col-md">
-                        <small className="d-block mb-3 text-muted text-center"> {date.getFullYear()} © All rights reserved <h1>✌️</h1></small></div>            
+                        <small className="d-block mb-3 text-muted text-center"> {date.getFullYear()} © All rights reserved <h1>🚀 </h1></small></div>            
                 </div>
             </footer>
         </div>
