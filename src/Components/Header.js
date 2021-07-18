@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import {useState} from 'react';
+import webpagelogo from '../Assets/Images/webpage-logo.jpg';
 
 function Header() {
     const [mainMenueCollapsed, setMainMenuCollapsed] = useState(true);
@@ -29,6 +30,7 @@ function Header() {
                     </button>
                     <div className={mainMenuClasses} id="navbarNavAltMarkup">
                         <div className="navbar-nav">
+                           <img src={webpagelogo}/>
                             <NavLink className="nav-link" exact to="/" style={{fontFamily: 'cursive'}}>Home</NavLink>
                             <NavLink className="nav-link" to="/articles" style={{fontFamily: 'cursive'}}>Articles</NavLink>
                             <NavLink className="nav-link" to="/chat" style={{fontFamily: 'cursive'}}>Agenda</NavLink>

@@ -18,7 +18,7 @@ return (
           <div class="col address">
             <h4>Address:</h4>
             <p>
-              Edenhall Country, Oxford OX33 1EA, United Kingdom
+              Planet Earth, Edenhall Country, Oxford OX33 1EA, United Kingdom
             </p>
             <h4>EMail:</h4>
             <p>

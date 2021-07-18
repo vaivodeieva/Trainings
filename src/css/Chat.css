@@ -29,7 +29,7 @@ html * {
   .chat-container {
       
     height: 770px;
-    width: 650px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     padding:0 2em;
