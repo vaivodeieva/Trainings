@@ -4,9 +4,8 @@ import '../css/RegisterSelect.css';
 
 const options = [
     { label: 'MARS', value: 'mars' }, 
-    { label: 'JUPITER', value: 'jupiter' }, 
-    { label: 'SATURN', value: 'saturn' },
     { label: 'VENUS', value: 'venus' }, 
+    { label: 'SATURN', value: 'saturn' },
 ]
 
 

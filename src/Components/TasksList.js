@@ -35,7 +35,7 @@ function TasksList({counter, reloadTaskList}) {
 
     let content = <h5>Loading...</h5>
     if (!tasks.loading && tasks.items.length == 0) {
-        content = <h5>No tasks added</h5>
+        content = <h5>You're good to go and ready for the virtual reality space travel!</h5>
     } else if (!tasks.loading) {
         const taskElements = tasks
             .items
