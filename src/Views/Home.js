@@ -29,19 +29,19 @@ function Home() {
         {
             title: 'VR travel to the Mars',
             image: slider1,
-            text: 'Some text which describes the category',
+            text: 'Some text which describes the category about Mars',
             id: '1',
         },
         {
             title: 'VR travel to the Venus',
             image: slider2,
-            text: 'Some text which describes the category',
+            text: 'Some text which describes the category about Venus',
             id: '2',
         },
         {
             title: 'VR travel to the Saturn',
             image: slider3,
-            text: 'Some text which describes the category',
+            text: 'Some text which describes the category about Saturn',
             id: '3',
         },
     ];
@@ -73,21 +73,22 @@ function Home() {
 
 
 
-                <div className="row g-0">
+                {/* <div className="row g-0"> */}
 
                     <div className="fx-wrap">
 
                         <div className="card">
                             <div className="front">
                             <div className="col-md-4">
-                            <img src={cardpic} className="img-fluid rounded-start" alt="landscape" />
+                            <img src={cardpic} className="img-fluid rounded-start card-picture" alt="landscape" />
 
                         </div>
                                 <div className="text">
                                     <header className="clearfix">
                                         <button className="flip"><span className="zmdi zmdi-replay"></span></button>
                                     </header>
-                                    <p>Hello, Click the turn button to watch me shine!</p><a href="#">Action</a>
+                                    {/* <p>Hello, Click the turn button to watch me shine!</p><a href="#">Action</a> */}
+                                    
                                 </div>
                             </div>
                             <div className="back">
@@ -97,17 +98,17 @@ function Home() {
                                     </header>
 
                                     <h5 className="card-title">
-                                    <NavLink to={'/articles/' + article.id}>
+                                    <NavLink to={'/articles/' + article.id} className="c-title">
                                         {article.title}
                                     </NavLink>
                                 </h5>
-
-                                    <p>I have flexbox with fallbacks, I'm not browser prefixed (so watch out, this is a prototype) but my animations are pure css if your into that sort of thing.</p>
+                                <p className="card-text">{article.text}</p>
+                                    {/* <p>I have flexbox with fallbacks, I'm not browser prefixed (so watch out, this is a prototype) but my animations are pure css if your into that sort of thing.</p> */}
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
 
 
                 {/* <div className="fx-wrap">

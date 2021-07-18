@@ -80,7 +80,7 @@ body {
 }
 .fx-wrap .card>.front .text button.flip,
 .fx-wrap .card>.back .text button.flip {
-  border-radius: 9999em;
+  border-radius: 9em;
   width: 30px;
   height: 30px;
   margin: 10px;
@@ -93,6 +93,7 @@ body {
   outline: 0;
   transition: background-color 0.3s ease-in, transform 0.4s;
   transition-delay: 0.1s;
+  
 }
 .fx-wrap .card>.front .text button.flip:hover,
 .fx-wrap .card>.back .text button.flip:hover {
@@ -119,7 +120,7 @@ body {
 }
 .fx-wrap .card>.front .image,
 .fx-wrap .card>.back .image {
-  border-top-left-radius: 4px;
+  border-top-left-radius: 4x;
   border-bottom-left-radius: 4px;
   background-size: cover;
   width: 108px;
@@ -154,12 +155,12 @@ body {
 .fx-wrap .card>.back header b,
 .fx-wrap .card>.back .text b {
   color: #0098a6;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 .fx-wrap .card>.back header p,
 .fx-wrap .card>.back .text p {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .fx-wrap .card.flip-it>.front {
   transform: rotateY(-180deg);
@@ -173,3 +174,16 @@ body {
 .fx-wrap .card.flip-it>.back:before {
   background-position: -324px 0;
 }
+
+
+
+.c-title {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.card-picture {
+    height: 70px;
+    min-width: 250px;
+}
+
