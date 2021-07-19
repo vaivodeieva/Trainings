@@ -6,7 +6,7 @@ import slider3 from '../Assets/Images/slider-3.jpg';
 
 import '../css/Home.css'
 import mars from '../Assets/Images/mars.jpg'
-import venus from '../Assets/Images/venus-gif.gif'
+import venus from '../Assets/Images/venus.jpg'
 import saturn from '../Assets/Images/saturn.jpg'
 
 import $ from 'jquery';
