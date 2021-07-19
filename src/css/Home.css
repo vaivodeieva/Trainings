@@ -187,3 +187,7 @@ body {
     min-width: 250px;
 }
 
+.card-title {
+  margin-left: 60px;
+}
+
