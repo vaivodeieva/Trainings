@@ -114,7 +114,7 @@ function Home() {
 
 
                 <div className="fx-wrap">
-                    <div className="card" data-href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJW58uxpzvVMvRwWjeU840KqAKGhLNyMT0F5Qh4cgD9rUCihYh">
+                    <div className="card" data-href="#">
                         <div class="front">
                             <div class="image">
                                 <img src={cardpic} className="img-fluid rounded-start card-picture" alt="landscape" />
@@ -128,7 +128,7 @@ function Home() {
                                         {article.title}
                                     </NavLink>
                                 </h5>
-                                <a href="#">🚀</a>
+                                <a to="#">🚀</a>
                             </div>
                         </div>
                         <div class="back">
@@ -186,7 +186,7 @@ function Home() {
             </div>
             <div className="row">
                 <div className="col mt-3">
-                    <h4>Categories</h4>
+                    <h4>Our virtual reality space travels:</h4>
                 </div>
             </div>
             <div className="row">
