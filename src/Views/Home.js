@@ -30,19 +30,19 @@ function Home() {
         {
             title: 'VR travel to the Mars',
             image: slider1,
-            text: 'Some text which describes the category about Mars',
+            text: 'Some text which describes the virtual space travel to Mars and explains how it all works.',
             id: '1',
         },
         {
             title: 'VR travel to the Venus',
             image: slider2,
-            text: 'Some text which describes the category about Venus',
+            text: 'Some text which describes the virtual space travel to Venus and explains how it all works.',
             id: '2',
         },
         {
             title: 'VR travel to the Saturn',
             image: slider3,
-            text: 'Some text which describes the category about Saturn',
+            text: 'Some text which describes the virtual space travel to Saturn and explains how it all works.',
             id: '3',
         },
     ];
@@ -136,11 +136,20 @@ function Home() {
                                 <header class="clearfix">
                                     <button class="flip"><span class="zmdi zmdi-replay"></span></button>
                                 </header>
-                                <b>"Welcome to our virtual reality travels!"</b>
+                                {/* <b>"Welcome to our virtual reality travels!"</b> */}
+                                <strong className="card-title">
+                                    <NavLink to={'/articles/' + article.id} className="c-title text-start">
+                                        {article.title}
+                                    </NavLink>
+                                </strong>
                                 
 
                                 {/* <p>I am considering making this into a Javascript component so you can all show off your business cards.<br/><i>Thank you for your support! ❤</i></p> */}
                                 <p className="card-text">{article.text}</p>
+                                <button className="read-more-btn">
+                                <NavLink to={'/articles/' + article.id} className="c-title text-center explore">Explore...
+                                </NavLink>
+                                   </button>
 
                             </div>
                         </div>
