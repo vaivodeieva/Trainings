@@ -127,7 +127,7 @@ body {
   border-bottom-left-radius: 4px;
   background-size: cover;
   width: 108px;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
   position: relative;
 }
 .fx-wrap .card>.front .image .heading,
@@ -140,7 +140,7 @@ body {
   padding: 10px;
   font-size: 1.5em;
   text-align: right;
-  color: #fff;
+  /* color: #fff; */
   text-transform: uppercase;
 }
 .fx-wrap .card>.front {

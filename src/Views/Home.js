@@ -4,9 +4,10 @@ import slider2 from '../Assets/Images/slider-2.jpg';
 import slider3 from '../Assets/Images/slider-3.jpg';
 
 
-import cardpic from '../Assets/Images/card-pic.jpg';
-import mars from '../Assets/Images/mars.jpg'
 import '../css/Home.css'
+import mars from '../Assets/Images/mars.jpg'
+import venus from '../Assets/Images/venus-gif.gif'
+import saturn from '../Assets/Images/saturn.jpg'
 
 import $ from 'jquery';
 
@@ -30,25 +31,27 @@ function Home() {
     const articles = [
         {
             title: 'VR travel to the Mars',
-            image: slider1,
+            image: mars,
             text: 'Some text which describes the virtual space travel to Mars and explains how it all works.',
             id: '1',
         },
         {
             title: 'VR travel to the Venus',
-            image: slider2,
+            image: venus,
             text: 'Some text which describes the virtual space travel to Venus and explains how it all works.',
             id: '2',
         },
         {
             title: 'VR travel to the Saturn',
-            image: slider3,
+            image: saturn,
             text: 'Some text which describes the virtual space travel to Saturn and explains how it all works.',
             id: '3',
         },
     ];
 
 
+
+    
 
     const articleElements = articles.map((article, index) => {
         return (
@@ -118,7 +121,7 @@ function Home() {
                     <div className="card" data-href="#">
                         <div class="front">
                             <div class="image">
-                                <img src={mars} className="img-fluid rounded-start card-picture" alt="landscape" />
+                                <img src={article.image} className="img-fluid rounded-start card-picture" alt="planet" />
                             </div>
                             <div class="text">
                                 <header class="clearfix">
