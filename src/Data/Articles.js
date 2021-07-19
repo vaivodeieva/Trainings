@@ -1,10 +1,12 @@
+import mars from '../Assets/Images/mars.jpg';
+
 const articles = [
     {
         title: 'Category 1',
         image: 'https://picsum.photos/500/500',
         text: 'SomeSome info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category Some info about the category  info about the category Some info about the category ',
         id: 'first-article',
-        images: ['https://picsum.photos/500/500', 'https://picsum.photos/500/500', 'https://picsum.photos/500/500', 'https://picsum.photos/500/500', 'https://picsum.photos/500/500', 'https://picsum.photos/500/500', 'https://picsum.photos/500/500', 'https://picsum.photos/500/500'] 
+        images: '../Assets/Images/mars.jpg' 
         
     },
     {

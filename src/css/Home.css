@@ -180,7 +180,7 @@ body {
 
 
 
-.c-title {
+.c-title, .explore {
     text-decoration: none;
     color: darkblue;
 }
@@ -194,8 +194,3 @@ body {
   margin-left: 60px;
 }
 
-
-.explore {
-  border: 2px;
- 
-}

@@ -5,6 +5,7 @@ import slider3 from '../Assets/Images/slider-3.jpg';
 
 
 import cardpic from '../Assets/Images/card-pic.jpg';
+import mars from '../Assets/Images/mars.jpg'
 import '../css/Home.css'
 
 import $ from 'jquery';
@@ -117,7 +118,7 @@ function Home() {
                     <div className="card" data-href="#">
                         <div class="front">
                             <div class="image">
-                                <img src={cardpic} className="img-fluid rounded-start card-picture" alt="landscape" />
+                                <img src={mars} className="img-fluid rounded-start card-picture" alt="landscape" />
                             </div>
                             <div class="text">
                                 <header class="clearfix">
@@ -147,7 +148,7 @@ function Home() {
                                 {/* <p>I am considering making this into a Javascript component so you can all show off your business cards.<br/><i>Thank you for your support! ❤</i></p> */}
                                 <p className="card-text">{article.text}</p>
                                 <button className="read-more-btn">
-                                <NavLink to={'/articles/' + article.id} className="c-title text-center explore">Explore...
+                                <NavLink to={'/articles/' + article.id} className="c-title text-center explore" >Explore...
                                 </NavLink>
                                    </button>
 
