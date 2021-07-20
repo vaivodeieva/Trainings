@@ -4,10 +4,10 @@
     overflow-x: hidden;
 } */
 
-body {
-  background: #07094a;
+/* body {
+  background-color: #07094a;
 
-}
+} */
 
 html,
 body {
@@ -192,5 +192,9 @@ body {
 
 .card-title {
   margin-left: 60px;
+}
+
+.cards {
+  margin-left: 0;
 }
 

@@ -1,0 +1,69 @@
+
+
+/* .chat-container {
+ background-image: url('../chat.jpg');
+} */
+
+html * { 
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; 
+    margin:0;
+    padding:0;
+    color:inherit;
+    background-color:inherit;
+    color: white;
+    /* border:2px solid orange; */
+  }
+  
+  .registercontainer {
+    background-image: url('../pic.jpg');
+    /* background-color: darkgreen; */
+    background-size:  cover;
+    background-position:center center;
+    
+  }
+  .container {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 100px;
+  }
+
+  
+
+.articles-background {
+    /* background-image: url('../agenda-bg.jpg'); */
+    /* background: url('../articles-bg.jpg'); */
+    background-size:  cover;
+    background-position:center center;
+    background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(2,5,255,0) 42%);
+
+    /* background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(255,255,255,0) 72%); */
+
+    
+  }
+  .container {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 100px;
+
+  }
+  
+  .agenda-wrapper {
+      margin-top: 40px;
+      
+  }
+
+  
+  
+
+
+
+
+  .articles-heading {
+      /* font-family:'Courier New', Courier, monospace; */
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+
+
+  

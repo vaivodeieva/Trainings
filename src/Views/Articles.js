@@ -2,6 +2,8 @@
 import Breadcrumbs from '../Components/Breadcrumbs';
 import { NavLink } from 'react-router-dom';
 import articles from '../Data/Articles.js';
+import '../css/Articles.css';
+
 
 function Articles() {
     const bredcrumbPaths = [
@@ -11,10 +13,10 @@ function Articles() {
 
     const articleElements = articles.map((article, index) => {
         return (
-            <div className="row mb-5 pb-3 border-bottom" key={index}>
-                <div className="col-12 col-md-3">
+            <div className="row mb-5 pb-3 border-bottom " key={index}>
+                <div className="col-12 col-md-3" >
                     <NavLink to={'/articles/' + article.id}>
-                        <img className="img-fluid" src={article.image} />
+                        <img className="img-fluid" src={article.image} style={{borderRadius: '70%'}} />
                     </NavLink>
 
                 </div>
@@ -31,18 +33,21 @@ function Articles() {
     })
 
     return (
-        <div className="container">
+        <div className="articles-background">
+        <div className="container ">
             <div className="row">
                 <div className="col">
-                    <Breadcrumbs paths={bredcrumbPaths} />
+                    <Breadcrumbs className="non-decoration" paths={bredcrumbPaths} />
                 </div>
             </div>
             <div className="row">
                 <div className="col">
-                    <h1>Categories</h1>
+                    <h1 className="articles-heading">VR space travels</h1>
                 </div>
             </div>
             {articleElements}
+        </div>
+
         </div>
     )
 }

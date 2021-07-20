@@ -55,69 +55,10 @@ function Home() {
 
     const articleElements = articles.map((article, index) => {
         return (
-            <div className="col cards" key={index}>
-                {/* <div className="card mb-3">
-                    <div className="row g-0">
-                        <div className="col-md-4">
-                            <img src={cardpic} className="img-fluid rounded-start" alt="landscape" />
-                        </div>
-                        <div className="col-md-8">
-                            <div className="card-body">
-                                <h5 className="card-title">
-                                    <NavLink to={'/articles/' + article.id}>
-                                        {article.title}
-                                    </NavLink>
-                                </h5>
-                                <p className="card-text">{article.text}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+            <div className="col cards " key={index}>
 
 
-
-
-
-                {/* <div className="row g-0"> */}
-
-                {/* <div className="fx-wrap">
-
-                    <div className="card">
-                        <div className="front">
-                            <div className="col-md-4">
-                                <img src={cardpic} className="img-fluid rounded-start card-picture" alt="landscape" />
-
-                            </div>
-                            <div className="text">
-                                <header className="clearfix">
-                                    <button className="flip"><span className="zmdi zmdi-replay"></span></button>
-                                </header>
-                                <p>Hello, Click the turn button to watch me shine!</p><a href="#">Action</a>
-
-                            </div>
-                        </div>
-                        <div className="back">
-                            <div className="text">
-                                <header className="clearfix">
-                                    <button className="flip"><span className="zmdi zmdi-replay"></span></button>
-                                </header>
-
-                                <h5 className="card-title">
-                                    <NavLink to={'/articles/' + article.id} className="c-title">
-                                        {article.title}
-                                    </NavLink>
-                                </h5>
-                                <p className="card-text">{article.text}</p>
-                                {/* <p>I have flexbox with fallbacks, I'm not browser prefixed (so watch out, this is a prototype) but my animations are pure css if your into that sort of thing.</p> */}
-                            {/* </div>
-                        </div>
-                    </div>
-                </div> */} 
-                {/* </div> */}
-
-
-
-                <div className="fx-wrap">
+                <div className="fx-wrap articles-container">
                     <div className="card" data-href="#">
                         <div class="front">
                             <div class="image">
