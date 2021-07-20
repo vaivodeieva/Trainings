@@ -5,7 +5,7 @@ function Breadcrumbs({ paths }) {
 
     const links = paths.map((path, index) => {
         if (path.link) {
-            return <li className="breadcrumb-item" key={index}><NavLink to={path.link}>{path.title}</NavLink></li>
+            return <li className="breadcrumb-item" key={index}><NavLink to={path.link} style={{color: 'black', textDecoration: 'none'}} >{path.title} </NavLink></li>
         }
         return <li className="breadcrumb-item active" key={index}>{path.title}</li>
     });

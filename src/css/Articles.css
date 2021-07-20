@@ -35,7 +35,10 @@ html * {
     /* background: url('../articles-bg.jpg'); */
     background-size:  cover;
     background-position:center center;
-    background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(2,5,255,0) 42%);
+    background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(2,5,255,0) 22%);
+
+
+    /* background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(2,5,255,0) 22%); */
 
     /* background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(255,255,255,0) 72%); */
 
@@ -66,4 +69,10 @@ html * {
   }
 
 
+
+  .articles-title {
+      text-decoration: none;
+      color:rgba(2, 111,130,1);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
   

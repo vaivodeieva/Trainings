@@ -15,14 +15,14 @@ function Articles() {
         return (
             <div className="row mb-5 pb-3 border-bottom " key={index}>
                 <div className="col-12 col-md-3" >
-                    <NavLink to={'/articles/' + article.id}>
+                    <NavLink to={'/articles/' + article.id} >
                         <img className="img-fluid" src={article.image} style={{borderRadius: '70%'}} />
                     </NavLink>
 
                 </div>
                 <div className="col-12 col-md-9">
                     <h3>
-                        <NavLink to={'/article/' + article.id}>{article.title}</NavLink>
+                        <NavLink to={'/article/' + article.id} className="articles-title" >{article.title}</NavLink>
                     </h3>
                     <p className="text-muted">
                         {article.text}
