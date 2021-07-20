@@ -5,18 +5,22 @@ import articles from '../Data/Articles.js';
 import '../css/Articles.css';
 
 
+
+
 function Articles() {
     const bredcrumbPaths = [
         { link: '/', title: 'Home' },
         { title: 'Articles' },
     ]
 
+    
+
     const articleElements = articles.map((article, index) => {
         return (
             <div className="row mb-5 pb-3 border-bottom " key={index}>
                 <div className="col-12 col-md-3" >
-                    <NavLink to={'/articles/' + article.id} >
-                        <img className="img-fluid" src={article.image} style={{borderRadius: '50%'}} />
+                    <NavLink to={'/data/articles/' + article.id} >
+                        <img className="img-fluid" src={article.image}  />
                     </NavLink>
 
                 </div>

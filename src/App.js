@@ -9,6 +9,7 @@ import Chat from './Views/Chat';
 import Register from './Views/Register';
 import AboutUs from './Views/AboutUs';
 import Page404 from './Views/Page404';
+import Page321 from './Views/Page321';
 
 
 
@@ -45,6 +46,11 @@ function App() {
                     <Route path="/aboutus">
                         <AboutUs />
                     </Route>
+
+                    <Route path="/page321">
+                        <Page321 />
+                    </Route>
+
 
                     <Route>
                         <Page404 />

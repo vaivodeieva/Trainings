@@ -126,7 +126,7 @@ const [img, setImage] = useState(img1);
                 <div className="col">
                     <Breadcrumbs paths={bredcrumbPaths} />
                 </div>
-                    <h2 style={{color: 'green', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}}>Tiny notice books</h2>
+                    <h2 style={{color: 'green', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}}>Are you ready to get amazed?</h2>
                 </div>
                 
                 <div className="row">
