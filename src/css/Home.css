@@ -12,6 +12,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   overflow-x: hidden;
 }
 .cards {
@@ -196,5 +197,27 @@ body {
 
 .cards {
   margin-left: 0;
+}
+
+
+
+.agenda-background {
+  /* background-image: url('../agenda-bg.jpg'); */
+  background-image: url('../pic-agenda.jpg');
+  background-size:  cover;
+  background-position:center center;
+  
+}
+
+.home-bg {
+  /* background: url('../pic-agenda.jpg'); */
+    background-size:  cover;
+    background-position:center center;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 5px;
+
+    padding: 0;
+    /* background: #16a8cf; */
 }
 

@@ -50,11 +50,9 @@ function Home() {
     ];
 
 
-
-    
-
     const articleElements = articles.map((article, index) => {
         return (
+            // <div className="home-bg">
             <div className="col cards " key={index}>
 
 
@@ -106,16 +104,16 @@ function Home() {
 
 
 
-
-            </div>
+               </div>
+            // </div> 
         )
     })
 
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+        <div className=" home-bg">
+            <div className="row ">
+                <div className="col ">
+                    <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <img src={slider1} className="d-block w-100" alt="..." />
