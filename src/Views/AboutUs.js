@@ -1,8 +1,8 @@
 
-import img1 from '../Assets/Images/item-1.jpg';
-import img2 from '../Assets/Images/item-2.jpg';
-import img3 from '../Assets/Images/item-3.jpg';
-import img4 from '../Assets/Images/item-4.jpg';
+import img1 from '../Assets/Images/cat1.jpg';
+import img2 from '../Assets/Images/cat2.jpg';
+import img3 from '../Assets/Images/cat3.jpg';
+import img4 from '../Assets/Images/cat4.jpg';
 import MapComponent from '../Components/MapComponent';
 import '../css/AboutUs.css';
 
@@ -20,7 +20,7 @@ function AboutUs() {
             </li>
             <li className="nav-item" role="presentation">
               <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                role="tab" aria-controls="profile" aria-selected="false">Insights</button>
+                role="tab" aria-controls="profile" aria-selected="false">Future</button>
             </li>
             <li className="nav-item" role="presentation">
               <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
@@ -39,6 +39,7 @@ function AboutUs() {
                 </div>
                 <div className="col-9 text-field">
                   <p>
+                    <p></p>
                     Adventure always. Paw your face to wake you up in the morning just going to dip my paw in your
                     coffee and do a taste test - oh never mind i forgot i don't like coffee - you can have that back now
                     meow and walk away love fish i cry and cry and cry unless you pet me, and then maybe i cry just for
@@ -60,6 +61,7 @@ function AboutUs() {
                 </div>
                 <div className="col-9 text-field">
                   <p>
+                    <p></p>
                     Accumsan lacus vel facilisis volutpat. Aliquet lectus proin nibh nisl condimentum id venenatis a.
                     Vel turpis nunc eget lorem dolor sed viverra ipsum. Adipiscing vitae proin sagittis nisl rhoncus
                     mattis rhoncus urna. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. Sed
@@ -76,6 +78,7 @@ function AboutUs() {
                 </div>
                 <div className="col-9 text-field">
                   <p>
+                    <p></p>
                     Adipiscing elit pellentesque habitant morbi tristique senectus et. Dictum sit amet justo donec enim.
                     Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Euismod in pellentesque
                     massa placerat duis ultricies lacus sed. Varius sit amet mattis vulputate enim nulla aliquet
@@ -97,6 +100,7 @@ function AboutUs() {
                 </div>
                 <div className="col-9 text-field">
                   <p>
+                    <p></p>
                     Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Dolor sit amet consectetur adipiscing elit
                     ut aliquam purus. Sodales ut eu sem integer vitae justo. Quam vulputate dignissim suspendisse in.
                     Dui sapien eget mi proin sed libero. Ultricies mi eget mauris pharetra et ultrices neque. Fames ac
