@@ -4,13 +4,14 @@ import img2 from '../Assets/Images/item-2.jpg';
 import img3 from '../Assets/Images/item-3.jpg';
 import img4 from '../Assets/Images/item-4.jpg';
 import MapComponent from '../Components/MapComponent';
+import '../css/AboutUs.css';
 
 
 function AboutUs() {
 
     return (
        
-      <div>
+      <div className="aboutus-container">
         <div className="col">
           <ul className="nav nav-tabs" id="myTab" role="tablist">
             <li className="nav-item" role="presentation">

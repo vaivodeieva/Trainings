@@ -1,0 +1,14 @@
+.aboutus-container {
+    /* background-image: url('../agenda-bg.jpg'); */
+    /* background: url('../articles-bg.jpg'); */
+    background-size:  cover;
+    background-position:center center;
+    background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(2,5,255,0) 62%);
+
+
+    /* background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(2,5,255,0) 22%); */
+
+    /* background: linear-gradient(180deg, rgb(9, 32, 16) 0%, rgba(2, 111,130,1) 0%, rgba(255,255,255,0) 72%); */
+
+    
+  }

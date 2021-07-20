@@ -16,7 +16,7 @@ function Articles() {
             <div className="row mb-5 pb-3 border-bottom " key={index}>
                 <div className="col-12 col-md-3" >
                     <NavLink to={'/articles/' + article.id} >
-                        <img className="img-fluid" src={article.image} style={{borderRadius: '70%'}} />
+                        <img className="img-fluid" src={article.image} style={{borderRadius: '50%'}} />
                     </NavLink>
 
                 </div>
