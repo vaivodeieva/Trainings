@@ -1,8 +1,6 @@
 
 
-/* .chat-container {
- background-image: url('../chat.jpg');
-} */
+
 
 html * { 
     box-sizing: border-box; 
@@ -15,13 +13,7 @@ html * {
     /* border:2px solid orange; */
   }
   
-  .registercontainer {
-    /* background-image: url('../pic.jpg'); */
-    /* background-color: darkgreen; */
-    background-size:  cover;
-    background-position:center center;
-    
-  }
+  
   .container {
       width: 100%;
       padding-top: 60px;
@@ -52,12 +44,6 @@ html * {
       margin-top: 40px;
       
   }
-
-  
-  
-
-
-
 
   .articles-heading {
       /* font-family:'Courier New', Courier, monospace; */
