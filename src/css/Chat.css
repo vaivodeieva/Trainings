@@ -1,7 +1,4 @@
 
-/* .chat-container {
- background-image: url('../chat.jpg');
-} */
 
 html * { 
     box-sizing: border-box; 
@@ -13,13 +10,7 @@ html * {
     /* border:2px solid orange; */
   }
   
-  .registercontainer {
-    background-image: url('../pic.jpg');
-    /* background-color: darkgreen; */
-    background-size:  cover;
-    background-position:center center;
-    
-  }
+  
   .container {
       width: 100%;
       padding-top: 60px;
@@ -41,8 +32,7 @@ html * {
 }
 
 .agenda-background {
-    /* background-image: url('../agenda-bg.jpg'); */
-    background-image: url('../pic-agenda.jpg');
+    background-image: url('../Assets/Images/pic-agenda.jpg');
     background-size:  cover;
     background-position:center center;
     
