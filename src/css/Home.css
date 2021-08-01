@@ -210,7 +210,6 @@ body {
 }
 
 .home-bg {
-  /* background: url('../pic-agenda.jpg'); */
     background-size:  cover;
     background-position:center center;
     margin-left: 95px;
@@ -218,6 +217,5 @@ body {
     margin-top: 5px;
 
     padding: 0;
-    /* background: #16a8cf; */
 }
 
