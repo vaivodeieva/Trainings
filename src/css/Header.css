@@ -2,7 +2,7 @@
     font-family: cursive;
 }
 
-.nav-link>.active {
+.nav-link :active {
     color: green;
 }
 
